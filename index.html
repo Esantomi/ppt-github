@@ -47,13 +47,15 @@
 					<h2 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">목차</h2>
 					<ol class="fragment">
 						<li>Git? Github?<a href="#git-github">#</a></li>
-						<li>Github 가입 및 저장소 생성<a href="#">#</a></li>
-						<li>Git Bash 설치 및 사용법<a href="#">#</a></li>
+						<li>Github 가입<a href="#가입">#</a></li>
+						<li>Github 저장소 생성<a href="#저장소">#</a></li>
+						<li>Github 저장소 사용법<a href="#사용법">#</a></li>
+						<li>Git Bash 사용법<a href="#Bash">#</a></li>
 					</ol>
 				</section>
 
 				<section id="git-github" data-transition="convex" data-background-image="https://user-images.githubusercontent.com/61646760/157031077-fcc5ecda-5826-4d95-81bc-ba773ac44114.png" data-background-size="400px" data-background-opacity="0.2">
-					<!-- <h2 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">Git</h2> -->
+					<h2 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">Git? Github? 🤔</h2>
 					<img src="https://user-images.githubusercontent.com/61646760/161542750-752c5c31-3c8f-4ec1-9438-31178e8469a0.png" style="height: 110px; background: transparent;"><img src="https://user-images.githubusercontent.com/61646760/161548580-32a7d7d0-5ca3-4372-9877-e993b6cc882f.png" style="height: 170px; background: transparent;">
 					<ul>
 						<li class="fragment"><strong>Git</strong> : Linus Torvalds가 개발한 <strong>분산 버전 관리 시스템</strong></li>
@@ -98,20 +100,182 @@
 					</section>
 				</section>
 
-				<section id="인터페이스" data-transition="convex" data-background-image="https://user-images.githubusercontent.com/61646760/157031077-fcc5ecda-5826-4d95-81bc-ba773ac44114.png" data-background-size="400px" data-background-opacity="0.2">
-					<h2 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">Github 살펴보기</h2>
-					<p><a href="https://github.com/Esantomi" target='_blank'>Esantomi</a> 페이지로 이동</p>
+				<section id="저장소" data-transition="convex" data-background-image="https://user-images.githubusercontent.com/61646760/157031077-fcc5ecda-5826-4d95-81bc-ba773ac44114.png" data-background-size="400px" data-background-opacity="0.2">
+					<section>
+						<h2 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">Github 저장소</h2>
+						<ul>
+							<li class="fragment"><strong>저장소(repository)</strong>란?</li>
+							<ul class="fragment">
+								<li>저장소에 특정 프로젝트의 모든 파일과 각 파일의 수정 기록을 보관</li>
+							</ul>
+							<li class="fragment">저장소 예시</li>
+							<ul class="fragment">
+								<li>Esantomi/digital-humanities 저장소<a href="https://github.com/Esantomi/digital-humanities">#</a></li>
+								<ul>
+									<li>사실상 구글 드라이브처럼 사용</li>
+								</ul>
+								<li>Esantomi/ppt-github 저장소<a href="https://github.com/Esantomi/ppt-github">#</a></li>
+								<ul>
+									<li>지금 이 ppt를 띄우고 있는 저장소</li>
+									<li>github pages라는 웹 호스팅 기능</li>
+								</ul>
+							</ul>
+						</ul>
+					</section>
+					<section>
+						<h2 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">Github 저장소 생성</h2>
+						<img src="https://user-images.githubusercontent.com/61646760/161675166-ea0dabec-15f6-4359-87e0-fda05d42b0d8.png" style="height: 150px; background: transparent;">
+						<p>Repositories - New 클릭</p>
+					</section>
+					<section>
+						<img src="https://user-images.githubusercontent.com/61646760/161676991-15831f08-7b7e-4cdc-82ec-72be5321e6b8.png" style="height: 420px; background: transparent;">
+						<p>Repository name, description 기입 -<br>Public 체크 - Add a READEME file 체크</p>
+					</section>
+					<section>
+						<img src="https://user-images.githubusercontent.com/61646760/161677200-52b23a31-e829-415d-83e4-ae3150be61f7.png" style="height: 420px; background: transparent;">
+						<p>저장소 생성 완료</p>
+					</section>
 				</section>
 
-				<section id="농담" data-transition="convex" data-background-image="https://user-images.githubusercontent.com/61646760/157031077-fcc5ecda-5826-4d95-81bc-ba773ac44114.png" data-background-size="400px" data-background-opacity="0.2">
-					<img src="https://user-images.githubusercontent.com/61646760/161551448-04f34ba2-7a5f-4a27-82bb-be5bc917a1af.png" style="height: 500px; background: transparent;">
-					<h6 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">화재 시 가장 먼저 할 일은 commit - push</h6>
+				<section id="사용법" data-transition="convex" data-background-image="https://user-images.githubusercontent.com/61646760/157031077-fcc5ecda-5826-4d95-81bc-ba773ac44114.png" data-background-size="400px" data-background-opacity="0.2">
+					<section>
+						<h2 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">Github 저장소 사용법</h2>
+						<img src="https://user-images.githubusercontent.com/61646760/161678116-fd1c1915-5b53-4db5-978f-1a1e38526621.gif" style="height: 200px; background: transparent;">
+						<ul>
+							<li>만든 저장소를 어떻게 관리 및 사용해요?</li>
+							<ul>
+								<li>웹에서 Drag & Drop</li>
+								<ul>
+									<li>파일 하나 올릴 때 적합</li>
+								</ul>
+								<li>Git Bash 사용</li>
+								<ul>
+									<li>저장소 내의 많은 파일을 변경했을 때</li>
+								</ul>
+							</ul>
+						</ul>
+					</section>
+					<section>
+						<h2 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">웹에서 Drag & Drop</h2>
+						<img src="https://user-images.githubusercontent.com/61646760/161678935-1e30db90-abd9-461c-8313-88e81b0cfd1a.png" style="height: 400px; background: transparent;">
+						<p>Drag & Drop</p>
+					</section>
+					<section>
+						<h2 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">웹에서 Drag & Drop</h2>
+						<img src="https://user-images.githubusercontent.com/61646760/161679288-80610f00-b3c5-4a00-886f-1212673994bb.png" style="height: 450px; background: transparent;">
+						<p>Commit 메시지 작성 - Commit changes 클릭</p>
+					</section>
+					<section>
+						<h2 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">Git Bash?</h2>
+						<ul>
+							<li><strong>셸(Shell)</strong></li>
+							<ul>
+								<li>키보드로 입력한 명령어(Command)를 운영체제(OS)에 전달하여, 그 명령어를 실행하게끔 하는 프로그램</li>
+								<li>e.g. CMD(명령 프롬프트)</li>
+							</ul>
+							<li><strong>Git Bash(Bourne Again SHell)</strong> : </li>
+							<ul>
+								<li>Bourne Shell을 대체하는 자유 소프트웨어</li>
+								<li>Windows 운영체제(OS) 환경에서 리눅스 커맨드를 사용할 수 있게 해 주는 Shell</li>
+							</ul>
+						</ul>
+					</section>
+					<section>
+						<h2 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">Git Bash 설치</h2>
+						<img src="https://user-images.githubusercontent.com/61646760/161680900-444ef0d5-3f92-4989-8e86-1297c457dc56.png" style="height: 400px; background: transparent;">
+						<ul>
+							<li><a href="https://git-scm.com/download/win">설치하러 가기</a></li>
+							<li>설치 시<a href="https://xangmin.tistory.com/102"> 참고 포스팅</a></li>
+						</ul>
+					</section>
+				</section>
+				
+				<section id="Bash" data-transition="convex" data-background-image="https://user-images.githubusercontent.com/61646760/157031077-fcc5ecda-5826-4d95-81bc-ba773ac44114.png" data-background-size="400px" data-background-opacity="0.2">
+					<section>
+						<h2 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">Git Bash 사용법</h2>
+						<img src="https://user-images.githubusercontent.com/61646760/161682773-44bddec8-d641-4d1d-8113-d1bb882f3f79.png" style="height: 420px; background: transparent;">
+						<p>일단 Git Bash를 실행</p>
+					</section>
+					<section>
+						<h2 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">Git Bash 첫 화면</h2>
+						<img src="https://user-images.githubusercontent.com/61646760/161683939-96db5276-cd83-45e3-a2df-1dd948d15fc7.png" style="height: 420px; background: transparent;">
+					</section>
+					<section>
+						<h2 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">사용자 설정</h2>
+						<ul>
+							<li>Github와 연동하여 사용하기 위함</li>
+							<pre><code class="hljs shell">git config --global user.name "내 이름"
+git config --global user.email "가입한_이메일@example.com"
+git config --list</code></pre>
+					</section>
+					<section>
+						<h2 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">저장소 clone</h2>
+						<ul>
+							<li>내 컴퓨터로 해당 저장소의 모든 파일을 복제함</li>
+							<pre><code class="hljs shell">cd Desktop/본인이_만든_폴더명
+git clone https://github.com/유저이름/레포이름</code></pre>
+							<li>해당 경로에 복제되었음을 확인할 수 있음</li>
+							<img src="https://user-images.githubusercontent.com/61646760/161686203-b0a5ced7-85e8-4e78-bc09-8bbf73616677.png" style="height: 250px;">
+					</section>
+					<section>
+						<ul>
+							<h2 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">작업 후 github에 반영하기</h2>
+							<li>내 컴퓨터에서 파일 수정</li>
+							<img src="https://user-images.githubusercontent.com/61646760/161685592-9028831b-b954-4dcf-82c3-f4b8ebb17436.png" style="height: 120px;">
+							<li>내 컴퓨터에서 변경한 사항을 Github 저장소에 반영시켜 줘야 함<br><span class="fragment">➔ 어떻게?</span></li>
+						</ul>
+					</section>
+					<section>
+						<h2 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">status, add, commit, push</h2>
+						<pre><code class="hljs shell">cd 방금_clone한_폴더
+git status
+git add -A
+git commit -m "commit 메시지"
+git push</code></pre>
+						<ul>
+							<li><strong>git status</strong> : 변동 사항 확인</li>
+							<li><strong>git add -A</strong> : 변동된 사항 전체 추가</li>
+							<li><strong>git commit</strong> : 추가한 사항 로컬 반영</li>
+							<li><strong>git push</strong> : 로컬에 반영한 사항 Github 저장소에 반영</li>
+						</ul>
+					</section>
+					<section>
+						<img src="https://user-images.githubusercontent.com/61646760/161687903-686571c4-6ba9-48cb-b17e-53ae44c659e1.png">
+					</section>
+					<section>
+						<img src="https://user-images.githubusercontent.com/61646760/161551448-04f34ba2-7a5f-4a27-82bb-be5bc917a1af.png" style="height: 500px; background: transparent;">
+						<p style="font-family: 'Gowun Dodum', 'Yuji Syuku';">화재 시 가장 중요한 것 : commit - push</p>
+					</section>
+					<section>
+						<img src="https://user-images.githubusercontent.com/61646760/161689022-0b702978-f31d-4419-9da4-e228ae185e62.png">
+						<p>Github 원격 저장소에 반영 완료</p>
+					</section>
+					<section>
+						<h2 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">pull</h2>
+						<ul>
+							<li><strong>git pull</strong> : 원격 저장소 변경 사항을 로컬에 반영</li>
+							<img src="https://user-images.githubusercontent.com/61646760/161688160-de46a09c-a4bc-4efb-abc8-f066448aa05d.png">
+							<li>웹으로 Drag & Drop해서 원격 저장소와 로컬 저장소에 차이가 있는 상황이면, pull 명령어로 변경 사항을 로컬로 가져올 필요가 있음</li>
+							<li>pull 하지 않으면 push 도중 오류 발생 가능</li>
+					</section>
 				</section>
 
-				<section id="pdf" data-transition="fade">
+				<section>
+					<h2 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">Github Wiki</h2>
+					<img src="https://user-images.githubusercontent.com/61646760/161690475-965ad245-890d-435c-aeba-0c2ce52df14e.png" style="height: 420px;">
+					<p>마크다운 기반의 위키 기능 제공<a href="https://github.com/Esantomi/digital-humanities/wiki">#</a></p>
+				</section>
+
+				<section>
+					<h2 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">Pull Request (PR)</h2>
+					<img src="https://user-images.githubusercontent.com/61646760/161690991-7f6df36b-fd4d-48ea-9b73-9a170dbe2958.png" style="height: 420px;">
+					<p>스시 오마카세 맛집 저장소에 기여</p>
+				</section>
+
+				<!-- <section id="pdf" data-transition="fade">
 					<h2 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">PDF로 다운받기</h2>
-					<!-- <iframe src="//www.slideshare.net/slideshow/embed_code/key/JL97kjWKxvzn1L" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>  -->
-				</section>
+					<iframe src="//www.slideshare.net/slideshow/embed_code/key/JL97kjWKxvzn1L" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
+				</section> -->
 
 				<section id="질의응답" data-transition="slide" data-background-image="https://user-images.githubusercontent.com/61646760/157031077-fcc5ecda-5826-4d95-81bc-ba773ac44114.png" data-background-size="400px" data-background-opacity="0.2">
 					<h1 style="font-family: 'Gowun Dodum', 'Yuji Syuku';">질의응답</h1>
